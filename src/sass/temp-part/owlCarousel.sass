@@ -1,0 +1,37 @@
+.owl-carousel
+  position: static
+
+.sliderNavBtn
+  position: absolute
+  display: flex
+  justify-content: space-between
+  margin: 0!important
+  width: 105px
+  height: 45px
+  inset: auto 265px 82px auto
+  z-index: 2
+  button
+    background: #fff!important
+    margin: 0!important
+    width: 45px
+    height: 45px
+    border-radius: 50%!important
+    border: 1px solid #9CCBBD!important
+    transition: all 250ms ease-out
+    &:is(:hover)
+      box-shadow: inset 0 50px rgba(14, 132, 110, 0.05)
+    &.disabled
+      box-shadow: none
+    span              // default arrow left/right inside buttons
+      display: none
+    svg
+      width: 20px
+      height: 17px
+      margin: 8px
+    path
+      fill: var(--color-primary)
+  &.rect
+    button
+      border-radius: 4px!important
+  .owl-prev svg
+    transform: rotate(180deg)

@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="58d6418f-ad5a-4aca-8544-33ba8529e8c4" name="Changes" comment="some performance optimizations done." />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true">
+    <pharConfigPath>$PROJECT_DIR$/assets/json/composer.json</pharConfigPath>
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="composer.json" />
+        <option value="CSS File" />
+        <option value="Sass File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="sliderChange" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2TsPcYtsOTqeMdNgT8QAj1okacK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="Sass" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.DirectoryMappings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\aboutBusiness\assets\img" />
+      <recent name="C:\xampp\htdocs\aboutBusiness\src\js" />
+      <recent name="C:\xampp\htdocs\aboutBusiness\src\sass\temp-part" />
+      <recent name="C:\xampp\htdocs\aboutBusiness\temp-part\widget" />
+      <recent name="C:\xampp\htdocs\aboutBusiness\temp-part" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\aboutBusiness\src\sass\temp-part" />
+      <recent name="C:\xampp\htdocs\aboutBusiness\src\js\shared-js" />
+      <recent name="C:\xampp\htdocs\aboutBusiness\src\sass" />
+      <recent name="C:\xampp\htdocs\aboutBusiness\temp-part\widget" />
+      <recent name="C:\xampp\htdocs\aboutBusiness\src\sass\business" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="58d6418f-ad5a-4aca-8544-33ba8529e8c4" name="Changes" comment="" />
+      <created>1691828894355</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1691828894355</updated>
+      <workItem from="1691828895362" duration="12147000" />
+      <workItem from="1691900418255" duration="3314000" />
+      <workItem from="1691903945748" duration="22750000" />
+      <workItem from="1691994648141" duration="20273000" />
+      <workItem from="1692074874467" duration="16192000" />
+      <workItem from="1692159572013" duration="45000" />
+      <workItem from="1692159653203" duration="1847000" />
+      <workItem from="1692165809429" duration="464000" />
+      <workItem from="1692166399484" duration="12000" />
+      <workItem from="1692166435271" duration="409000" />
+      <workItem from="1692168710221" duration="20184000" />
+      <workItem from="1692254724743" duration="9013000" />
+      <workItem from="1692418769392" duration="14794000" />
+      <workItem from="1692505655803" duration="2299000" />
+      <workItem from="1692515882811" duration="24000" />
+      <workItem from="1692515919214" duration="5524000" />
+      <workItem from="1692530292100" duration="157000" />
+      <workItem from="1692678553365" duration="21801000" />
+      <workItem from="1692764795518" duration="10828000" />
+      <workItem from="1692777664571" duration="70000" />
+      <workItem from="1692778465230" duration="188000" />
+      <workItem from="1692779487438" duration="231000" />
+      <workItem from="1692779748482" duration="1274000" />
+      <workItem from="1692781484460" duration="1218000" />
+      <workItem from="1692783507449" duration="9000" />
+      <workItem from="1692783545642" duration="345000" />
+      <workItem from="1692783901728" duration="388000" />
+      <workItem from="1692784302362" duration="5393000" />
+      <workItem from="1692792213606" duration="1046000" />
+      <workItem from="1692793357923" duration="422000" />
+      <workItem from="1692851039958" duration="13701000" />
+      <workItem from="1693023684117" duration="14804000" />
+      <workItem from="1693039985972" duration="196000" />
+      <workItem from="1693136344726" duration="2104000" />
+      <workItem from="1693204497725" duration="9001000" />
+      <workItem from="1693283915547" duration="21693000" />
+      <workItem from="1693370592500" duration="19620000" />
+      <workItem from="1693456483790" duration="8821000" />
+      <workItem from="1693628945428" duration="25831000" />
+      <workItem from="1693801822720" duration="20969000" />
+      <workItem from="1693888250130" duration="22135000" />
+      <workItem from="1694060881176" duration="14643000" />
+      <workItem from="1694233577553" duration="20608000" />
+      <workItem from="1694320302305" duration="21217000" />
+      <workItem from="1694414457454" duration="14411000" />
+      <workItem from="1694492837854" duration="26793000" />
+      <workItem from="1694579423500" duration="8562000" />
+      <workItem from="1694606642356" duration="1412000" />
+      <workItem from="1694925083828" duration="14001000" />
+      <workItem from="1695018705604" duration="2925000" />
+      <workItem from="1695097694727" duration="1416000" />
+      <workItem from="1695273379049" duration="1807000" />
+      <workItem from="1695284804481" duration="10000" />
+      <workItem from="1695623919510" duration="1050000" />
+    </task>
+    <task id="LOCAL-00001" summary="backup commit">
+      <option name="closed" value="true" />
+      <created>1692530428091</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1692530428091</updated>
+    </task>
+    <task id="LOCAL-00002" summary="backup commit">
+      <option name="closed" value="true" />
+      <created>1692777726354</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1692777726354</updated>
+    </task>
+    <task id="LOCAL-00003" summary="update v1.1">
+      <created>1694262075823</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694262075823</updated>
+    </task>
+    <task id="LOCAL-00004" summary="an opacity layer added to banner.">
+      <created>1694321190574</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1694321190574</updated>
+    </task>
+    <task id="LOCAL-00005" summary="animating border.">
+      <created>1694421059961</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694421059961</updated>
+    </task>
+    <task id="LOCAL-00006" summary="deleted">
+      <created>1694421078444</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1694421078444</updated>
+    </task>
+    <task id="LOCAL-00007" summary="toggling offcanvas functions.">
+      <created>1694421130595</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1694421130595</updated>
+    </task>
+    <task id="LOCAL-00008" summary="banner fixed.">
+      <created>1694421157494</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1694421157494</updated>
+    </task>
+    <task id="LOCAL-00009" summary="updated">
+      <created>1694421179461</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1694421179461</updated>
+    </task>
+    <task id="LOCAL-00010" summary="animation border added into bizRegister button.">
+      <created>1694421227678</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1694421227678</updated>
+    </task>
+    <task id="LOCAL-00011" summary="updated">
+      <created>1694421246565</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1694421246565</updated>
+    </task>
+    <task id="LOCAL-00012" summary="some performance optimizations done.">
+      <created>1694494782250</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1694494782250</updated>
+    </task>
+    <task id="LOCAL-00013" summary="some performance optimizations done.">
+      <created>1694939679182</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1694939679182</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="dependencySupport" implementationName="executable:docker" />
+    <option featureType="dependencySupport" implementationName="executable:kubectl" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="backup commit" />
+    <MESSAGE value="update v1.1" />
+    <MESSAGE value="an opacity layer added to banner." />
+    <MESSAGE value="animating border." />
+    <MESSAGE value="deleted" />
+    <MESSAGE value="toggling offcanvas functions." />
+    <MESSAGE value="banner fixed." />
+    <MESSAGE value="animation border added into bizRegister button." />
+    <MESSAGE value="updated" />
+    <MESSAGE value="some performance optimizations done." />
+    <option name="LAST_COMMIT_MESSAGE" value="some performance optimizations done." />
+  </component>
+</project>

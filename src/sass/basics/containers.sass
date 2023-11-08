@@ -1,0 +1,22 @@
+// responsive containers
+
+.container,.container-32
+  width: 100%
+  margin-right: auto
+  margin-left: auto
+
+@media (min-width: 768px)
+  .container,.container-32
+    width: 768px
+@media (min-width: 992px)
+  .container,.container-32
+    width: 992px
+@media (min-width: 1200px)
+  .container,.container-32
+    width: 1120px
+
+@media (max-width: 767px)
+  .container
+    padding: 0 20px
+  .container-32
+    padding: 0 32px

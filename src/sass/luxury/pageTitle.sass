@@ -1,0 +1,72 @@
+.pageTitle_container
+  position: relative
+  .contentWrapper
+    background: url($baseUrl + "/assets/img/bg-min.jpg") no-repeat center/cover
+    position: relative
+    height: 583px
+    padding: 133px 0 140px
+    margin-bottom: 75px
+    overflow: hidden
+  .scrollIntoContent
+    display: none
+    position: absolute
+    bottom: -10px
+    right: 37px
+    z-index: 3
+    color: var(--color-primary)
+  .gradient-layer
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 79.84%, #F9F9f9 99.99%, transparent 100%)
+    position: absolute
+    inset: 0
+  .container
+    position: relative
+    z-index: 3
+  .bg-img-left
+    width: 32%
+    height: 583px
+    position: absolute
+    left: 0
+    top: -1px
+    z-index: 2
+    img
+      border-radius: 0 0 280px 0
+  .pgTitle
+    color: #044F39
+    font-size: 60px
+    letter-spacing: -1.4px
+    margin-bottom: 20px
+  .pgDescr
+    font-size: 17px
+    line-height: 33px
+  .cntView-btn
+    margin-top: 50px
+  .content
+    column-gap: 130px
+    margin-left: 25px
+    .btn
+      border: 1px solid var(--color-primary)
+      color: var(--color-primary)
+      font-size: 17px
+      &:hover
+        .icon
+          transform: rotateZ(270deg) translateX(-3px)
+    .icon-arrow-left
+      transform: rotateZ(270deg)
+      margin-right: 5px
+
+  .luxurySlider
+    width: 422px
+    flex-shrink: 0
+    border-radius: 4px
+    position: relative
+    z-index: 3
+    @include aspect(1.36, 1)
+  .sliderFrame
+    border: 7px solid #DCB45F
+    border-radius: 4px
+    transform: rotate(-10deg)
+    position: absolute
+    inset: 0
+  .luxSlide
+    @include aspect(1.36, 1)
+    border-radius: 4px

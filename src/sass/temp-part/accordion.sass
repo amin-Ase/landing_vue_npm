@@ -1,0 +1,33 @@
+.accordion
+  margin: 30px 0
+  border-radius: 4px
+  overflow: hidden
+  .grad-edge
+    height: 25px
+    border-radius: 0 0 4px 4px
+    background: #F2F3F3
+    box-shadow: 0px -3px 4px 0px var(--color-black-16)
+.accordion_btn
+  padding: 16px 20px
+  background: rgba(0, 0, 0, 4%)
+  font-size: 16px
+  font-weight: 550
+  .arrow-down:after
+    padding: 5px
+    border-color: #000
+    border-radius: 1px
+.accordion_box
+  background: rgba(0, 0, 0, 0.04)
+  margin-top: 1px
+  padding: 20px 0 0
+.accordion-cnt
+  height: 290px
+  overflow-y: auto
+  margin: 0 20px
+  padding-bottom: 15px
+  &::-webkit-scrollbar
+    background: url($baseUrl + "/assets/img/scrollbar.png") repeat-y 50%
+    width: 8px
+  &::-webkit-scrollbar-thumb
+    background: var(--color-secondary)
+    border-radius: 50px

@@ -1,0 +1,132 @@
+footer
+  background: linear-gradient(180deg, #E4F0EE 0%, #FFF 62.96%, #FFF 100%)
+  border-top: 3px solid var(--color-primary)
+  position: relative
+  margin-top: 70px
+.ft-logo
+  width: 175px
+  height: 75px
+  text-align: center
+  margin: -25px 0 0 0
+  background: linear-gradient(#FFFFFF, #E4F0EE)
+  img
+    width: 125px
+.ft-socials
+  column-gap: 16px
+  color: var(--color-primary)
+  position: absolute
+  top: 80px
+  a
+    transition: background-color 200ms ease-in
+  a:hover
+    background: var(--color-primary)
+    color: #fff
+.ft-socialLink
+  width: 48px
+  height: 48px
+  border-radius: 50%
+  background: rgba(14, 132, 110, 0.15)
+  transition: all 200ms ease-out
+  svg
+    width: 24px
+    height: 24px
+.ft-header-text
+  column-gap: 75px
+
+.ft-header
+  position: relative
+  margin-top: 30px
+  padding-bottom: 50px
+  border-bottom: 1px solid var(--color-black-16)
+  .title
+    font-size: 17px
+    font-weight: 700
+    color: var(--color-title)
+    flex-shrink: 0
+    align-self: flex-start
+
+.ft-links
+  padding: 70px 0
+  .wrapper
+    display: flex
+    flex-wrap: wrap
+    gap: 40px
+    justify-content: space-between
+  .divider
+    border-right: 1px solid var(--color-black-24)
+  ul
+    display: flex
+    flex-direction: column
+    row-gap: 12px
+    color: var(--color-body)
+    font-size: 16px
+    font-weight: 550
+    a
+      transition: all 200ms ease-out
+    li:before
+      content: "\25AA"
+      color: var(--color-secondary)
+      font-size: 23px
+      margin-left: 12px
+      transition: color 100ms ease-in
+    li:hover
+      color: var(--color-primary)
+      a
+        transform: translateX(-5px)
+  .primary-links
+    li:before
+      color: var(--color-primary)
+  .secondary-links
+    li:hover:before
+      color: var(--color-primary)
+
+.ft-namad
+  background: url($baseUrl + "/assets/img/bg-wide.png") no-repeat center/cover
+  border-radius: 4px
+  padding: 50px 0
+  .wrapper
+    padding: 0 50px
+    border-right: 4px solid var(--color-secondary)
+  .text
+    flex-basis: 50%
+    font: 550 16px/30px $yekanBakh
+    color: var(--color-body)
+.Enamad
+  width: 82px
+  height: 87px
+.samandehi
+  width: 73px
+  height: 90px
+.namads
+  column-gap: 50px
+
+.ft-bottomLinks
+  padding: 40px 0
+  background: #fff
+  .wrapper
+    gap: 15px 35px
+    flex-wrap: wrap
+    font: 550 16px/normal $yekanBakh
+    color: var(--color-body)
+  a
+    position: relative
+    transition: all 200ms ease-out
+    // add a dot under link when hover
+  a:hover
+    color: var(--color-primary)
+    &:after
+      content: ""
+      position: absolute
+      width: 6px
+      height: 6px
+      background: var(--color-primary)
+      inset: auto calc(50% - 3px) -12px
+
+
+
+.someText
+  -webkit-line-clamp: 3
+  color: #404040
+  text-align: justify
+  font-size: 16px
+  line-height: 30px

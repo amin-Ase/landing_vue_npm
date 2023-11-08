@@ -1,0 +1,27 @@
+.card
+  overflow: hidden
+  flex-shrink: 0
+  &:hover
+    img
+      transform: scale(1.15)
+    .title
+      color: var(--color-primary)
+.card-img
+  overflow: hidden
+  border: 1px solid rgba(0, 0, 0, 8%)
+  border-radius: 4px
+.card-body
+  display: -webkit-box
+  -webkit-box-orient: vertical
+  -webkit-line-clamp: 2
+  text-overflow: ellipsis
+  overflow: hidden
+  font-weight: 700
+  transition: all 200ms ease
+  font-size: 17px
+  height: 54px
+  line-height: 27px
+.card-footer
+  font: 550 16px/normal $yekanBakh
+  color: var(--color-subtitle)
+  flex-basis: 25px

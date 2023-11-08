@@ -1,0 +1,38 @@
+#offcanvas
+  max-width: 300px
+  margin-left: auto
+  position: fixed
+  inset: 61px 0 0
+  z-index: 10
+  transform: translateX(100%)
+  transition: all 350ms ease-out
+  &.show
+    transform: translateX(0)
+  .itemCnt:hover
+    &,.itemName,.icon
+      color: var(--color-primary)
+  .menuContent
+    background: #fff
+    height: 100%
+    border-top: 1px solid var(--color-black-8)
+  .links-wrapper
+    padding: 0 16px
+    font: 550 16px/normal $yekanBakh
+  .primary-links
+    padding-bottom: 15px
+  .secondary-links
+    padding-top: 15px
+    color: var(--color-subtitle)
+  // menu items
+  .menuItems
+    padding: 15px 0
+    user-select: none
+    overflow: auto
+    height: 100%
+    .itemName
+      transition: all 200ms ease-out
+    .itemCnt
+      padding: 12px 0
+    svg
+      width: 22px
+      height: 22px

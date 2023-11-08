@@ -1,0 +1,5 @@
+jQuery(() => {
+
+    toggleableHeight('more-details');
+
+});

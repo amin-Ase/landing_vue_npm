@@ -1,0 +1,44 @@
+.blurredCard
+  overflow: hidden
+  border-radius: 4px
+  position: relative
+  box-shadow: 0 5px 30px 5px rgba(0, 0, 0, 0.25)
+  &:hover
+    .blurred
+      opacity: 0
+      transition: opacity 300ms ease-out
+  a
+    width: 100%
+  .card-img
+    @include aspect(1.26, 1)
+    width: 100%
+  .text-label
+    position: absolute
+    inset: 0
+    z-index: 2
+    background: rgb(0, 0, 0, 0.48)
+    color: #fff
+    display: flex
+    flex-direction: column
+    justify-content: flex-end
+    padding: 25px 20px
+    row-gap: 5px
+  .blurred
+    position: absolute
+    z-index: 1
+    backdrop-filter: blur(8px)
+    inset: 0
+    transition: opacity 300ms ease-out
+  .date
+    font: 550 18px/normal $yekanBakh
+  .title
+    font: 700 20px/35px $yekanBakh
+  .icon
+    padding-right: 15px
+    border-right: 1px solid #fff
+    height: 18px
+    align-self: baseline
+    margin-right: auto
+    display: none
+    svg
+      vertical-align: baseline

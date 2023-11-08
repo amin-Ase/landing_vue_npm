@@ -1,0 +1,156 @@
+@import "../responsive-header-footer"
+
+@media (max-width: 1199px)
+  .newest
+    .sliderContainer
+      height: 324px
+
+@media (max-width: 991px)
+  body#luxury.device_mobile
+    background: #fff
+  .pageTitle_container
+    .gradient-layer
+      display: none
+    .scrollIntoContent
+      display: block
+    .contentWrapper
+      padding: 91px 0 75px
+      height: auto
+    .pgTitle
+      font-size: 35px
+      margin-bottom: 0
+    .pgDescr
+      font-size: 15px
+      line-height: 27px
+    .cntView-btn
+      display: none
+    .bg-img-left
+      width: 118vw
+      height: 60%
+      transform: rotate(-10deg) translate(-38px, -107px)
+      img
+        border-radius: 0
+    .content
+      flex-direction: column
+      row-gap: 45px
+    .titleWrapper
+      order: 1
+    .luxurySlider
+      width: calc(100% - 230px)
+      height: auto
+      @include aspect(1.36, 1)
+  // --------newest slider--------- //
+  .newest
+    .sliderContainer
+      height: 265px
+    .cardsWrapper
+      column-gap: 35px
+  // --------popular articles--------- //
+  .popularArticles
+    .part-title
+      .titleWrapper
+        top: 59%
+
+@media (max-width: 767px)
+  .pageTitle_container
+    .luxurySlider
+      width: calc(100% - 40px)
+    .contentWrapper
+      background: url($baseUrl + "/assets/img/bg-min-m.jpg") no-repeat center/cover
+  // --------new articles--------- //
+  .newest
+    margin-bottom: 120px
+    height: 424px
+    .part-title
+      .title
+        margin-bottom: 20px
+        font-size: 22px
+    .sliderContainer
+      height: auto
+    .cardsWrapper
+      flex-direction: column
+      row-gap: 20px
+    .blurredCard
+      &:nth-child(2)
+        transform: translateY(0)
+  .blurredCard
+    .card-img
+      height: 110px
+      flex-grow: 1
+    .text-label
+      padding: 15px 20px
+      justify-content: flex-start
+    .titleWrapper
+      column-gap: 35px
+    .date
+      font: 400 15px/normal $yekanBakh
+    .title
+      font: 700 17px/normal $yekanBakh
+    .icon
+      display: inline-block
+      margin-top: 2px
+  // --------popular articles--------- //
+  .popularArticles
+    .container
+      padding: 0
+    .part-title
+      .imgWrap
+        background-position: -45px 0
+      .title
+        font-size: 22px
+      .titleWrapper
+        width: 80%
+        top: 52%
+        text-align: center
+        background: #fff
+        padding: 12px 20px 12px
+    .partsWrap
+      margin-top: 37px
+      display: grid
+      grid-gap: 50px
+    .categoryLink
+      position: relative
+      overflow: hidden
+      height: 70px
+      border-radius: 100px 4px 4px 100px
+      box-shadow: 0 5px 30px 5px rgba(0, 0, 0, 0.25)
+      .content
+        position: absolute
+        inset: 0
+        color: #fff
+        background: rgba(0, 58, 43, 0.75)
+        padding: 22px 20px
+      .text
+        font: 550 15px/normal $yekanBakh
+        margin-top: 2px
+        white-space: nowrap
+      .catName
+        font: 900 22px/27px $yekanBakh
+    .categorySlider
+      display: grid
+      grid-gap: 24px
+    .sliderWrapper
+      column-gap: 16px
+      .card
+        width: 190px
+      .card-img img
+        @include aspect(1.2, 1)
+  // --------latest articles--------- //
+  .latestArticles
+    .part-title
+      margin-bottom: 16px
+      .titleWrapper
+        background: #fff
+      .title
+        font-size: 22px
+    .articleContainer
+      grid-template-columns: repeat(auto-fill, minmax(296px, 1fr))
+      grid-gap: 16px
+    .load_more
+      display: block
+      margin-top: 17px
+    .loadBtn,.btn
+      width: 100%
+    .btn
+      border-radius: 4px
+      color: var(--color-primary)

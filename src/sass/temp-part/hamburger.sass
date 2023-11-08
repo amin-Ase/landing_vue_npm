@@ -1,0 +1,29 @@
+.hamburger
+  display: none
+  height: 61px
+  width: 55px
+  flex-shrink: 0
+  position: relative
+  &:after
+    content: ''
+    height: 16px
+    position: absolute
+    width: 1px
+    background: #C3C3C3
+    left: 0
+  .wrapper
+    display: flex
+    flex-direction: column
+    row-gap: 5px
+  &.close .bar
+    &:first-child
+      transform: translateY(7px) rotate(45deg)
+    &:nth-child(2)
+      opacity: 0
+    &:last-child
+      transform: translateY(-7px) rotate(-45deg)
+  .bar
+    width: 20px
+    height: 2px
+    background: #404040
+    transition: transform 0.2s
